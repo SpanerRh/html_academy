@@ -7,49 +7,29 @@
   <body>
     <header class="page-header">
       <img class="logo" src="" alt="Device">
-      <div class="search-form">
+      <section class="top-panel-wrapper">
         <form>
-          <input type="text" class="search-input">
-          <input type="submit">
-
+          <input type="text" class="search-input" name="search-input" placeholder="Текст поиска">
+          <button class="search-button" type="submit">Найти</button>
         </form>
-      </div>
-      <nav class="navigation">
-        <ul class="class="navigation-list navigation-user>
-          <li>
-            <a href="">Войти</a>
-          </li>
-          <li>
-            <a href="">Сравнить</a>
-          </li>
-          <li>
-           
-              <a href="">Корзина</a>
-            
-          </li>
+        <ul class="top-navigation">
+          <li class="top-navigation-item"><a href="#" class="top-nagation-item-link">Войти</a></li>
+          <li class="top-navigation-item"><a href="#" class="top-nagation-item-link">Сравнитьa</a></li>
+          <li class="top-navigation-item"><a href="#" class="top-nagation-item-link"> <span class="visually-hidden">Корзина</span></a></li>
         </ul>
-        <ul class="navigation-list">
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">Выпадающее</button>
-              <div class="dropdown-content">
-
-              </div>
-            </div>
-          </li>  
-          <li>
-            <a href="">Доставка</a>
-          </li> 
-          <li>
-            <a href="">Гарантия</a>
-          </li> 
-          <li>
-            <a href="">Контакты</a>
-          </li> 
-
-        </ul>
-      </nav>
-      
+      </section>
+      <section class="main-navigation-wrapper">
+        <button class="catalog-toggler">Каталог товаров</button>
+        <nav class="user-menu">
+          <ul class="user-menu-list">
+            <li class="user-menu-list-item">
+              <a href="#" class="user-menu-list-item-link">Доставка</a>
+              <a href="#" class="user-menu-list-item-link">Гарантия</a>
+              <a href="#" class="user-menu-list-item-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </header>
     <main>
       <article class="items-slider">
